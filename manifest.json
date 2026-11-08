@@ -1,0 +1,13 @@
+{
+  "background_color": "#0f172a",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "BCV Monitor",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "BCV Monitor",
+  "start_url": "/",
+  "theme_color": "#0f172a",
+  "id": "BCV Monitor",
+  "description": "Tasas BCV y Binance P2P"
+}
