@@ -1,13 +1,19 @@
 {
   "background_color": "#0f172a",
   "dir": "ltr",
-  "display": "standalone",
+  "display": "fullscreen",
   "name": "BCV Monitor",
   "orientation": "any",
   "scope": "/",
   "short_name": "BCV Monitor",
-  "start_url": "/",
+  "start_url": "https://idkghadier05.github.io/BCV-Monitor/",
   "theme_color": "#0f172a",
   "id": "BCV Monitor",
-  "description": "Tasas BCV y Binance P2P"
+  "description": "Tasas BCV y Binance P2P",
+  "lang": "es",
+  "categories": [
+    "business",
+    "finance"
+  ],
+  "iarc_rating_id": "18"
 }
