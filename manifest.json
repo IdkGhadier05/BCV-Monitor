@@ -8,13 +8,13 @@
   "description": "Tasas BCV y Binance P2P",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
+      "src": "https://raw.githubusercontent.com/idkghadier05/BCV-Monitor/main/icono.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
+      "src": "https://raw.githubusercontent.com/idkghadier05/BCV-Monitor/main/icono.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
