@@ -2,6 +2,7 @@
 <html lang="es" class="dark">
 <head>
   <meta charset="UTF-8">
+  <link rel="manifest" href="manifest.json">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tasa BCV En Vivo - USD, EUR & USDT P2P</title>
   
@@ -1092,10 +1093,8 @@
 
     // --- INICIALIZACIÓN INMEDIATA ---
     function initApp() {
-      // 1. Ocultar splash screen inmediatamente o tras un pequeño delay mínimo visual
       setTimeout(hideSplashScreen, 600);
 
-      // 2. Cargar caché y actualizar UI
       const cachedTime = loadRatesFromCache();
       updateNetworkStatus();
       updateUI();
@@ -1105,7 +1104,6 @@
         if (usdTime) usdTime.innerText = `${cachedTime}`;
       }
 
-      // 3. Inicializar gráficos, temporizadores y solicitar nuevas tasas en segundo plano
       initChart();
       startTimer();
       fetchBcvRates();
@@ -1116,7 +1114,6 @@
     } else {
       initApp();
     }
-    // Backup de seguridad por si falla la carga de algún recurso externo
     setTimeout(hideSplashScreen, 2000);
   </script>
 </body>
